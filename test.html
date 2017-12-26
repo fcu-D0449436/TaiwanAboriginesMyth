@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+  background-color: linen
+  }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script>
+        var size = 100;
+        function SizeToLarge(){
+            if(size>499){
+                alert("This is the largest !!");
+            }else{
+                size = size+50;
+                $("text").css("font-size",size+"%");
+            }
+        }
+        function SizeTosmall(){
+            if(size>99){
+                size = size-50;
+                $("text").css("font-size",size+"%");
+            }else{
+                alert("This is the smallest !!");
+            }
+        }
+$(document).ready(function(){
+	$("#A1Btn").click(function(){
+		$("A1").show();
+		$("A2").hide();
+		$("A3").hide();
+		$("A4").hide();
+		$("A5").hide();
+		$("A6").hide();
+		$("A7").hide();
+		$("A8").hide();
+	});
+	$("#A2Btn").click(function(){
+		$("A1").hide();
+		$("A2").show();
+		$("A3").hide();
+		$("A4").hide();
+		$("A5").hide();
+		$("A6").hide();
+		$("A7").hide();
+		$("A8").hide();
+	});
+	$("#A3Btn").click(function(){
+		$("A1").hide();
+		$("A2").hide();
+		$("A3").show();
+		$("A4").hide();
+		$("A5").hide();
+		$("A6").hide();
+		$("A7").hide();
+		$("A8").hide();
+	});
+	$("#A4Btn").click(function(){
+		$("A1").hide();
+		$("A2").hide();
+		$("A3").hide();
+		$("A4").show();
+		$("A5").hide();
+		$("A6").hide();
+		$("A7").hide();
+		$("A8").hide();
+	});
+	$("#A5Btn").click(function(){
+		$("A1").hide();
+		$("A2").hide();
+		$("A3").hide();
+		$("A4").hide();
+		$("A5").show();
+		$("A6").hide();
+		$("A7").hide();
+		$("A8").hide();
+	});
+	$("#A6Btn").click(function(){
+		$("A1").hide();
+		$("A2").hide();
+		$("A3").hide();
+		$("A4").hide();
+		$("A5").hide();
+		$("A6").show();
+		$("A7").hide();
+		$("A8").hide();
+	});
+	$("#A7Btn").click(function(){
+		$("A1").hide();
+		$("A2").hide();
+		$("A3").hide();
+		$("A4").hide();
+		$("A5").hide();
+		$("A6").hide();
+		$("A7").show();
+		$("A8").hide();
+	});
+	$("#A8Btn").click(function(){
+		$("A1").hide();
+		$("A2").hide();
+		$("A3").hide();
+		$("A4").hide();
+		$("A5").hide();
+		$("A6").hide();
+		$("A7").hide();
+		$("A8").show();
+	});
+});
+</script>
+</head>
+<body>
+<h2>主頁面</h2>
+    <input type="button" value="字體變大" onClick="SizeToLarge()">
+    <input type="button" value="字體變小" onClick="SizeTosmall()">
+	<br>
+	<button id="A1Btn" >A1</button>
+	<button id="A2Btn" >A2</button>
+	<button id="A3Btn" >A3</button>
+	<button id="A4Btn" >A4</button>
+	<button id="A5Btn" >A5</button>
+	<button id="A6Btn" >A6</button>
+	<button id="A7Btn" >A7</button>
+	<button id="A8Btn" >A8</button>
+<br><text>
+<A1 style="display:none">A1.</A1>
+<A2 style="display:none">A2.</A2>
+<A3 style="display:none">A3.</A3>
+<A4 style="display:none">A4.</A4>
+<A5 style="display:none">A5.</A5>
+<A6 style="display:none">A6.</A6>
+<A7 style="display:none">A7.</A7>
+<A8 style="display:none">A8.</A8>
+</text>
+</body>
+</html>
+
