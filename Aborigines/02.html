@@ -1,0 +1,72 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 賽德克族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>賽德克族</a1><br>
+			<p>獵首祭<br>
+賽德克族在舉行「收穫祭」後的獵首行動，於此即以收穫祭的獵首行動為例，略述賽德克族的獵首祭。<br>
+在部落時代，賽德克族人除了對入侵的敵方獵首外，於舉行播種祭與收穫祭時會執行獵首行動係屬傳統的祭祀範疇，播種祭儀前的獵首是祈求Utux(Utux Tmninun)賜予豐收，收穫祭儀後的獵首則是感謝Utux(Utux Tmninun)的庇佑與賜福。因應收穫祭所派出的獵首團是代表部落或一個區域的威勢，大都由部落意見領袖帶頭出獵，出獵之前早已派出先遣隊探得該次獵首的地點與對象。獵首團所敬候的是Utux(Utux Tmninun)的應允。<br>
+在那個年代裡人口愈多的部落就愈壯大，部落愈壯大族群就愈強盛，可知部落時期賽德克族人對人丁旺盛的渴望。<br>
+因此，「獵首祭」實則為賽德克族人因部落增加了一個人力及為部落迎接一位新夥伴而慶祝的儀式。<br>
+由於賽德克族人獵首的首要目的是「增加部落的人力」，因而對行獵的對象有其一定的規範：不獵孩童；不獵婦女，尤其懷有身孕者；不獵老者；不獵殘障者。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

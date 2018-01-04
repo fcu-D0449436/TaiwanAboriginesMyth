@@ -1,0 +1,71 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 泰雅族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>泰雅族</a1><br>
+			<p>射日傳說<br>
+太古時候，天上有兩個太陽輪流出沒，沒有晝夜之分，天氣非常酷熱，草木枯死，河水乾凅，人民的生活苦不堪言。
+族人討論後，決定射下一個太陽。有勇士三人，自願前往。他們準備了食物，各自背負一嬰孩出發。他們在路上把吃過的桔子種在地上。日復一日，年復一年，距離太陽尚遠，而三人早已變成老人，嬰孩們卻都長大了。老人們相繼死去，而成長的嬰兒繼續前進。有一天他們終於到達太陽之處，於是稍做休息，準備第二天太陽出來時趁機射殺。
+第二天黎明時，三人見太陽一出來，便引弓急射，被射中的太陽流出一堆滾熱的血；其中一人被血燙死，其他二人急忙逃走。在回家的路上，他們看見從前的桔子，已經長得很高大且結實纍纍。
+回到村中，他們也變成白髮老人了；從那時候起，再沒有兩個太陽，而有晝夜之分了；我們在夜裡看到的月亮，便是被射死的太陽的屍體。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 排灣族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>排灣族</a1><br>
+			<p>洪水傳說<br>
+古時候，洪水氾濫成災。當時有一對兄妹抓住水中的「拉葛葛日」草，才沒有淹死。
+忽然一條蚯蚓出現，他排出的糞變成一座浮出水面的山陵，他們就依附在這座山。並在那裡住了一段時日，因為沒有火，所以日子非常難過。這時候，半空中飛來一隻甲蟲，口中銜著一根火繩，他們便用來引火。他們找到地瓜、山芋和粟米的種子，並在蚯蚓排泄出來的土地上耕作，有了充足的食物。但二人長大後，在世間卻找不到其他人做配偶。最後只好結為夫妻，最初他們所生的孩子都有殘疾；有瞎子、四肢不全的。
+到了第二代，生下的子女就比較正常些。到了第三代所生下的子女都健康正常，據說孩童殘疾是兄妹結婚而產生的惡果。排灣族的神話傳說有一特別之處是可用吟唱方式呈現。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

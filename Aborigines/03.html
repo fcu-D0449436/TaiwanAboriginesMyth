@@ -1,0 +1,71 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 邵族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>邵族</a1><br>
+			<p>逐鹿傳說<br>
+大約四百年前，邵族人原住在阿里山，有一天，邵族的祖先「排大木」（Paidabo）率領土狗和十幾個族人出門打獵。<br>
+這次的出獵沒捕到什麼獵物，族人正憂愁著該怎麼回去見家人時，突然發現了一隻肥碩的大白鹿在林中奔竄，於是下定決心要抓回這隻肥美的白鹿。於是朝著深山林叢追去，但是怎麼追就是追不到。
+正當大家追得筋疲力竭時，突然發現已不知不覺追到了一片湖光山色的美麗地方（就是今天的日月潭），而白鹿見到已經無路可逃，於是衝入了潭中。白鹿的血和內臟引來數不清的魚類爭食，隨行的族人抓起這些沒看過的魚謹慎的試吃一下，發現這些魚實在肥碩鮮美而且無毒，取之不盡、用之不絕。於是大家高興的將族人接來這裡居住。
+</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

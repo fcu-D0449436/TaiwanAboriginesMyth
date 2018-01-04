@@ -1,0 +1,71 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 賽夏族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>賽夏族</a1><br>
+			<p>矮靈祭的起源傳說<br>
+相傳以前和矮人達愛毗鄰而居，達愛傳授賽夏農耕知識，給他們種籽，並教導祭祀禮儀和歌舞，因此賽夏族視其為恩人。每當有祭典節慶時，就請矮人前來飲酒作樂。
+有一次豐收祭之夜，矮人調戲賽夏族少女，賽夏族設計報復。他們將通往矮人住處的山枇杷樹橋砍斷一半，坐在橋上的矮人落水滅亡，只剩下兩個矮人倖存。這兩個矮人編出矮人祭歌，並在祭歌中叮嚀教誨賽夏族人。要他們謹記教訓，並按期舉行矮人祭儀。<br><br>
+
+兩人沿河向東方離去時，邊撕山棕葉邊警告賽夏族人若不遵從叮嚀教誨，會導致作物歉收，族群滅亡。賽夏人為求矮人再保佑族人的平安和豐收，遂每年舉行矮靈祭，不僅慰弔矮靈，也祈求矮人賜福。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

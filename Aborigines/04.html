@@ -1,0 +1,68 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 鄒族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>鄒族</a1><br>
+			<p>馘首傳說<br>
+上古時有位名叫「哈莫」（hamo）的神從天上降臨至新高山，創造了人類。人類歷經多年，逐漸地繁衍，各自選擇美地而分居各地。然而由於發生可怕的大洪水，四方皆猶如大海一般，因此散居各處的人們便再次避難於新高山，多數的動物亦同樣齊聚山頂。那時尚未有穀物，因而食鳥獸之肉，以求存活。某時於屠殺狗後，不經意地將狗的頭插於竹竿前頭，立於地上，予以嬉戲，不知為何，竟感覺有一種快感。隨後思及，若為猿猴之頭，又將如何？逐漸產生愈強的興趣，最後終於殺了社內的頑童，將頭砍下置於竿頭，人們的興味更增一層。而後大洪水逐漸退去，世界恢復原狀，人們也陸續下山。然而回想起砍殺人頭的快感，不由得便開始襲擊他社的人們，予以馘首。達邦社原來只有一姓，因獵殺他社人們後取其名為姓，因此至今已有十餘姓。然而此一神話情節係涉及洪水神話而生成的神話枝節，我們或可視為習俗的遠古起源，或視為神話之想像，然依據許多研究者的判斷，它是經歷了相當長時間的形成過程，與今天我們所知道的馘首習俗，實難以直接相連。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

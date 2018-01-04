@@ -1,0 +1,68 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 噶瑪蘭族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>噶瑪蘭族</a1><br>
+			<p>加禮宛社祖先的故事<br>
+從前有一對兄妹來自宜蘭。有一天妹妹外出找水時，發現了一個水塘，打算利用此處來開墾田地，所以就在水塘的一端埋入自己的圍裙，並結草為記，然後回家向兄長報告發現了水塘，以及結草為記的事。哥哥一聽，立刻就到妹妹所說的水塘邊。貪婪的哥哥用刀子割掉妹妹所結的草，回家告訴妹妹，他看到了水塘，但沒有看到妹妹所結的草，所以水塘應屬他所有。妹妹聽了不承認，並表示自己在水塘的一端埋有圍裙，要哥哥一起查證。兄妹倆一起到了水塘邊，一挖，果然有妹妹所埋的圍裙，於是妹妹取得了水塘的所有權。不過也因此造成了兄妹感情的破裂。結果妹妹入山居住，成為「土羅可番」。因為積怨已深，所以演變成後來土羅可番攻繫加禮宛，並取人首級的事。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 阿美族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>阿美族</a1><br>
+			<p>海岸阿美族之創生傳說<br>
+遠古時，神仙Abokirayan住於台灣東方海上。某日，抵達Botoru孤島，與女神Tariburayan同棲該島。某日無意中，猛抽懸掛於樹枝之藤條而著火，此為用火之始。
+二神在蹲著烤乾藷時，發現男神下腹有凸出之物，女則則是凹入狀，初甚不解，後見二鶺鴒搖尾求偶，才恍然大悟。
+其後子孫繁衍，Abokutayan以大木做舟，率女神Tariburayan、teposuruyan，向西航行至Kawasan登陸，但該處已為橫暴之神佔據，便轉向北方，到達達拉羅馬（花蓮附近），但此處亦不適居住，又航行至立霧溪口登陸，終定居於此，並種植攜帶之甘藷，見該地原有野生之稻米與粟，摘食之，甚甘美，乃以竹、木為材製作鋤頭、耕地種植，子孫日眾，分佈於東部海岸地帶。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

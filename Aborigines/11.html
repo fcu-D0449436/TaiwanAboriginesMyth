@@ -1,0 +1,72 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 太魯閣族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>太魯閣族</a1><br>
+			<p>彩虹橋<br>
+太魯閣族祖先常對孩子們說，人死後，他靈魂必定會在彩虹橋的橋頭。凡斬獲過敵人首級的男人和會織布與編織的女人，一洗手立刻冒出血來。像這樣的人可以通過彩虹橋，到祖靈那裡享福。可是沒有取敵人首級的男人及不會織布及編織的女人，就不能通過彩虹橋，而會被丟下河底，並被螃蟹吃掉。因此為了能經過彩虹橋，男人要去取敵人的首級，女人必須會織布與編織。而且不可用手指彩虹橋，以免手指會斷掉。
+太魯閣族祖先發祥地 【 神石 】 
+在太初創世時期，有一男神一女神自天上降在深山上的大石內，大石分裂為二，一個變成陸地，一個變為宮殿，此二神就住在這宮殿裡，並稱呼此地為峰巒（祖先地，他們也稱為神木，神石）並從此地繁衍太魯閣族的後代。<br>
+射日傳說<br><br>
+與<a href="10.html">泰雅族</a>相同。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+<html>
+<!-- head comments  -->   
+<head>
+ <meta charset="big5"/>
+<title> 布農族 </title>
+<style>
+	body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+<script>
+		var size = 100;
+		function SizeToLarge(){
+			if(size>499){
+				alert("This is the largest !!");
+			}else{
+				size = size+50;
+				$("text").css("font-size",size+"%");
+			}
+		}
+        function SizeTosmall(){
+			if(size>99){
+				size = size-50;
+				$("text").css("font-size",size+"%");
+			}else{
+				alert("This is the smallest !!");
+			}
+		}
+</script>
+
+
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.jpg"></a></li>
+		<li><input type="image" value="字體變大"  img src="大.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小"  img src="小.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+        
+	<div class="tab-content ">
+		<div class="in active">
+		<text>
+
+			<a1>布農族</a1><br>
+			<p>洪水傳說<br>
+太古時代洪水驟然成災，淹沒了大地，形成了一片茫茫大海，僅剩玉山、巒大山、郡大山、shilubiya山的山頂露在水面上。
+人們避難到玉山的山頂上，可是所有的粟穀盡失，無以為炊。還好山上有很多獸類，於是捕獵生食充飢。由於沒有火，生活很不方便，只好到處尋火，有一天終於發現卓社大山上有火光。於是立刻派一隻鳥去索火，可是在回程途中熄火了；再改派長尾鳥去，長尾鳥卻在飛行途中落水淹死。
+最後，人們派出haipiji鳥去，這才如願以償，得火而歸。 後來，有一次螃蟹和大蛇爭鬥，螃蟹剪破了大蛇的肚子，大蛇痛得向西逃竄而去，其經過之處形成一道溪流，積水順溪而退，又露出原來的陸地來。人們大喜，紛紛下山求美地，而離散四方，各自組織部社，以至於今。</p>
+		</text>
+		</div>
+	</div>
+
+
+</body>
+</html>
